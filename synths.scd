@@ -49,10 +49,10 @@ SynthDef("crash", { arg amp = 1;
 }).add;
 
 // set up clap sample
-~clapBuffer = Buffer.read(s, "/Applications/SuperCollider/SuperCollider.app/Contents/Resources/sounds/11098__a43__a43-clap.aiff");
+~clapBuffer = Buffer.read(s, "./audio/11098__a43__a43-clap.aiff");
 
 // set up open hat sample
-~openHatBuffer = Buffer.read(s, "/Applications/SuperCollider/SuperCollider.app/Contents/Resources/sounds/165028__rodrigo-the-mad__mini-909ish-open-hat.wav");
+~openHatBuffer = Buffer.read(s, "./audio/165028__rodrigo-the-mad__mini-909ish-open-hat.wav");
 
 // generic sample player synthdef
 SynthDef("samplePlayer",{ arg out = 0, bufnum, amp;

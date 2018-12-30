@@ -17,8 +17,11 @@ To play the beat, load `loader.scd` in SuperCollider and evaluate the file.
 * `pbinds.scd`: this defines the pattern bindings which play the drum sounds. It's roughly equivalent to a sequencer.
 * `timing.scd`: this defines the individual sequences for each drum. It's roughly equivalent to the individual rows for each drum that you'd see in a grid sequencer.
 
-## dependencies
+## drum samples
 
-The location of two drum samples on my laptop's hard drive are hard-coded as absolute pathnames in `synths.scd`.
-I hope to clean this up soon.
-In the meantime it's pretty easy to download samples from [freesound.org](https://freesound.org/).
+Two drum samples come from freesound.org:
+
+* https://freesound.org/people/Rodrigo%20The%20Mad/sounds/165028/
+* https://freesound.org/people/A43/sounds/11098/
+
+Thanks to their respective creators!
