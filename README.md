@@ -9,7 +9,7 @@ It was a great workshop and I highly recommend it.
 
 ## how it works
 
-To play the beat, load `loader.scd` in SuperCollider and evaluate the file.
+To play the beat, first run `ruby installer.rb`, then load `loader.scd` in SuperCollider and evaluate the file.
 
 `loader.scd` loads three files:
 
