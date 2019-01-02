@@ -39,7 +39,7 @@ Pbind(
 
 Pbind(
   \instrument, \zaps,
-  \dur, 1/4, // I have NFI what's going on here
+  \dur, 1/4,
   \amp, Pseq(~rideAmps, inf)
 ).play(mainClock);
 
