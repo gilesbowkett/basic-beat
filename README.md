@@ -25,3 +25,12 @@ Two drum samples come from freesound.org:
 * https://freesound.org/people/A43/sounds/11098/
 
 Thanks to their respective creators!
+
+## blog posts
+
+Some blog posts on truthindustri.es explain this code in depth:
+
+* https://truthindustri.es/supercollider/2019/01/01/supercollider-house-beat.html
+* https://truthindustri.es/supercollider/2019/01/04/supercollider-house-drums.html
+* https://truthindustri.es/supercollider/2019/01/05/supercollider-riser.html
+
